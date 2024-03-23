@@ -1,5 +1,5 @@
 import React from "react";
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import {HashRouter , Routes, Route} from 'react-router-dom';
 import MainComponent from "./wrap/MainComponent";
 import HeaderComponent from "./wrap/HeaderComponent";
 import FooterComponent from "./wrap/FooterComponent";
@@ -51,7 +51,7 @@ export default function WrapComponent(){
 
     return (
         <div id="wrap">
-            <BrowserRouter basename={process.env.PUBLIC_URL}>
+            <HashRouter  basename={process.env.PUBLIC_URL}>
                 <Routes>
                     <Route path="/" element={<HeaderComponent />}>
                         <Route index element={ <MainComponent /> } /> 
@@ -83,7 +83,7 @@ export default function WrapComponent(){
 {                selector.confirmReducer.isConfirmModal &&
                 <ConfirmModalComponent/>
 }
-            </BrowserRouter>
+            </HashRouter >
         </div>
     )
 }
