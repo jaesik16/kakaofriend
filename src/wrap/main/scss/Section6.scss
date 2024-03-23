@@ -1,0 +1,110 @@
+#section6{
+    width: 100%;
+    padding: 30px 0;
+    .container{
+        max-width: 640px;
+        width: 100%;
+        margin: 40px auto 0 auto;
+        height: 650px;
+        .cotent{
+            width: 100%;
+            height: 100%;
+            position: relative;
+            z-index: 1;
+            video{
+                position: absolute;
+                z-index: 2;
+                width: 100%;
+            }
+            .middle-title{
+                width: 100%;
+                position: absolute;
+                top: 250px;
+                z-index: 3;
+                margin: 0 15px;
+                span{
+                    display: block;
+                    font-size: 20px;
+                    line-height: 24px;
+                    color: #fff;
+                    width: 100%;
+                }
+                strong{
+                    display: block;
+                    margin: 5px 0 0 0;
+                    width: 100%;
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: #fff;
+                }
+            }
+            .product-box{
+                width: 100%;
+                .product-list{
+                    position: absolute;
+                    z-index: 3;
+                    top: 320px;
+                    width: 100%;
+                    padding: 0 15px;
+                    display: flex;
+                    .list-box{
+                        width: 33.333%;
+                        padding: 0 5px 30px 5px;
+                        cursor: pointer;
+                        .img-box{
+                            padding: 50%;
+                            position: relative;
+                            background-color: #eee;
+                            border-radius: 15px;
+                            img{
+                                position: absolute;
+                                opacity: 0.9;
+                                top: 0;
+                                left: 0;
+                                width: 100%;
+                                height: 100%;
+                                border-radius: 10px;
+                            }
+                        }
+                    }
+                    .text-box{
+                        width: 100%;
+                        span{
+                            width: 100%;
+                            display: block;
+                            color: #616161;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            white-space: nowrap;
+                            font-size: 13px;
+                            line-height: 16px;
+                        }
+                        em{
+                            font-size: 15px;
+                            line-height: 18px;
+                            color: #222;
+                        }
+                    }
+
+                }
+            }
+            .button-box{
+                width: 100%;
+                position: absolute;
+                bottom: 0;
+                button{
+                    width: 100%;
+                    border-radius: 5px;
+                    height: 48px;
+                    padding: 0 20px;
+                    border: 1px solid #ddd;
+                    font-weight: 600;
+                    color: 000;
+                    font-size: 14px;
+                    background: #fff;
+                }
+            }
+        }
+    }
+
+}

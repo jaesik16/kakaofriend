@@ -1,0 +1,176 @@
+#section5{
+    width: 100%;
+    .container{
+        max-width: 670px;
+        width: 100%;
+        margin: 40px auto 0 auto;
+        padding: 0 15px;
+        .title-box{
+            width: 100%;
+            padding: 0 20px 16px 20px;
+            .title{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                strong{
+                    font-size: 20px;
+                    font-weight: 700;
+                    color: #000;
+                }
+                a{
+                    color: #747475;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    span{
+                        width: 100%;
+                    }
+                    i{  
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+        .content{
+            width: 100%;
+            .product-view{
+                width: 100%;
+                height: 240px;
+                overflow: hidden;
+                .product-wrap{
+                    width: 100% *3;
+                    display: flex;
+                    flex-flow: row wrap;
+                    position: relative;
+                    .product-box{
+                        width: 320px;
+                        .product{
+                            width: 100%;
+                            padding: 0 10px;
+                            cursor: pointer;
+                            .product-list{
+                                width: 100%;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                height: 80px;
+                                .list1{
+                                    .img-box{
+                                        padding: 34px 34px;
+                                        position: relative;
+                                        background: #000;
+                                        border-radius: 10px;
+                                        img{
+                                            position: absolute;
+                                            top: 0;
+                                            left: 0;
+                                            width: 68px;
+                                            opacity: 0.93;
+                                        }
+                                    }
+                                }
+                                .list2{
+                                    margin: 32px 12px;
+                                    span{
+                                        color: #ff886d;
+                                    }
+                                }
+                                .list3{
+                                    width: 189px;
+                                    height: 80px;
+                                    padding-top: 10px;
+                                    display: flex;
+
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    border-bottom: 1px solid#ddd;
+                                    span{
+                                        width: 100%;
+                                        line-height: 20px;
+                                        overflow: hidden;  		
+                                        text-overflow: ellipsis; 
+                                        white-space: nowrap;
+                                    }
+                                    em{
+                                        width: 100%;
+                                        line-height: 18px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+
+                    // .product-right{
+                    //     width: 50%;
+                    //     padding: 0 10px;
+                    // }
+                }
+            }
+        }
+        .page-btn-box{
+            width: 100%;
+            padding: 30px 0 0 0;
+            .btn-box{
+                width: 100%;
+                height: 24px;
+                position: relative;
+                display: flex;
+                justify-content: center;
+                .left-page-btn{
+                    z-index: 2;
+                    position: absolute;
+                    left: 40%;
+                    width:24px;
+                    height:24px;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background: #fff;
+                    border: 1px solid #ddd;
+                    transition: all 0.6s;
+                    &.on{
+                        opacity: 0.2;
+                    }
+                    i{
+                        transform: rotate(180deg);
+                        color: #999;
+                    }
+                }
+
+                .page-num-box{
+                    padding: 0 20px;
+                    em{
+                        letter-spacing: -0.21px
+                    }
+                    i{
+                        letter-spacing: -0.21px
+                    }
+                }
+                .right-page-btn{
+                    z-index: 2;
+                    position: absolute;
+                    right: 40%;
+                    width:24px;
+                    height:24px;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background: #fff;
+                    border: 1px solid #ddd;
+                    transition: all 0.6s;
+                    &.on{
+                        opacity: 0.2;
+                    }
+                    i{
+                        transform: rotate(180deg);
+                        color: #999;
+                    }
+                }
+            }
+        }
+    }
+
+}

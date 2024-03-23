@@ -1,0 +1,103 @@
+#subNoticeWrite{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    background: #fff;
+    .container{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        .content{
+            width: 100%;
+            .title{
+                width: 100%;
+                padding: 50px 0;
+                background: #fae102;
+                .title-text{
+                    display: block;
+                    text-align: center;
+                    width: 100%;
+                    font-size: 30px;
+                    padding: 0 0 18px 0;
+                    color: #000;
+                }
+            }
+            .notice{
+                width: 100%;
+                max-width: 1280px;
+                padding: 20px 0 0 0;
+                margin: 0 auto;
+                .content{
+                    width: 100%;
+                    border: 0;
+                    display: flex;
+                    flex-flow: row nowrap;
+                    align-items: center;
+                    background: #fff;
+                    .notice-title{
+                        width: 100%;
+                        padding: 30px 0;
+                        display: flex;
+                        flex-flow: row wrap;
+                        border: 1px solid #ddd;
+                        border-bottom: 0;
+                        li{
+                            width: 100%;
+                            display: flex;
+                            flex-flow: row nowrap;
+                            justify-content: center;
+                            &:first-child{
+                                border-bottom: 0;
+                            }
+                            h2{
+                                display: flex;
+                                align-items: center;
+                                width: 100px;
+                                height: 100%;
+                                padding: 0 10px;
+                                background: #ddd;
+                                border: 1px solid #000;
+                            }
+                            input[type='text']{
+                                width: 800px;
+                                padding: 5px 0 5px 10px;
+                                height: 40px;
+                                outline: none;
+                                color: #000;
+                                font-size: 16px;
+                            }
+                            textarea{
+                                width: 800px;
+                                padding: 20px 0 5px 10px;
+                                height: 400px;
+                                outline: none;
+                                color: #000;
+                                font-size: 16px;
+                                resize: none;
+                            }
+                        }
+                    }
+                }
+                .btn-box{
+                    max-width: 900px;
+                    margin: 0 auto;
+                    text-align: end;
+                    button{
+                        width: 90px;
+                        margin: 0 10px;
+                        height: 30px;
+                        font-size: 16px;
+                        font-weight: 500;
+                        white-space: nowrap;
+                        background-color: #000;
+                        color: #fff;
+                        border: 1px solid #000;
+                        border-radius: 5px;
+                    }
+                }
+            }
+        }
+    }
+}

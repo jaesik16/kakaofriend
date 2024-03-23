@@ -1,0 +1,16 @@
+{
+    "slide":[
+        {"번호":"MAIN_S01_000","이미지":"section1_10.webp"},
+        {"번호":"MAIN_S01_001","이미지":"section1_1.webp"},
+        {"번호":"MAIN_S01_002","이미지":"section1_2.webp"},
+        {"번호":"MAIN_S01_003","이미지":"section1_3.jpg"},
+        {"번호":"MAIN_S01_004","이미지":"section1_4.webp"},
+        {"번호":"MAIN_S01_005","이미지":"section1_5.webp"},
+        {"번호":"MAIN_S01_006","이미지":"section1_6.webp"},
+        {"번호":"MAIN_S01_007","이미지":"section1_7.webp"},
+        {"번호":"MAIN_S01_008","이미지":"section1_8.webp"},
+        {"번호":"MAIN_S01_009","이미지":"section1_9.webp"},
+        {"번호":"MAIN_S01_010","이미지":"section1_10.webp"},
+        {"번호":"MAIN_S01_011","이미지":"section1_1.webp"}
+    ]
+}

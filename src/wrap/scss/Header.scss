@@ -1,0 +1,132 @@
+#header{
+    width: 100%;
+    position: relative;
+    height: auto;
+    z-index: 6;
+    background-color: #fff;
+    .container{
+        max-width: 640px;
+        width: 100%;
+        margin: 0 auto;
+        border-bottom: 1px solid #ddd;
+        .header-title{
+            width: 100%;
+            height: 46px;
+            display: flex;
+            .title-left{
+                width: 80px;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                button{
+                    border: 0;
+                    background: #fff;
+                    &.left1{
+                        width: 100%;
+                        height: 100%;
+                        i{
+                            font-size: 24px;
+                            cursor: pointer;
+
+                        }
+                    }
+                    &.left2{
+                        width: 100%;
+                        height: 100%;
+                        .on{
+                            i{
+                                font-size: 24px;
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }
+
+            }
+            .title-middle{
+                width: 512px;
+                height: 100%;
+                button{
+                    width: 100%;
+                    height: 100%;
+                    border: 0;
+                    background: #fff;
+                    img{
+                        height: 100%;
+                    }
+                }
+            }
+            .title-right{
+                width: 80px;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                button{
+                    width: 34px;
+                    height: 34px;
+                    padding: 5px 5px;
+                    background: #fff;
+                    border: 0;
+                    i{
+                        cursor: pointer;
+                        font-size: 24px;
+                    }
+                }
+            }
+            .logIn-box{
+                display: flex;
+                padding: 10px 0;
+                height: 56px;
+                align-items: center;
+                .logIn-left{
+                    img{
+                        width: 32px;
+                        height: 32px;
+                    }
+                }
+                .logIn-right{
+                    margin: 0 0 0 5px;
+                    text-align: center;
+                    white-space: nowrap;
+                }
+            }
+
+        }
+        .header-subpage-box{
+            width: 100%;
+            height: 44px;
+            ul{
+                width: 100%;
+                height: 100%;
+                padding: 0 5px;
+                display: flex;
+                li{
+                    width: 100%;
+                    height: 100%;
+                    a{
+                        display: flex;
+                        width: 100%;
+                        height: 100%;
+                        justify-content: center;
+                        align-items: center;
+                        border-bottom: 4px solid #fff;
+                        &.on{
+                            border-bottom: 4px solid#000;
+                        }
+                        span{
+                            font-size: 16px;
+                            font-weight: 700;
+                            color: #000;
+                        }
+                    }
+                    &:nth-child(1){
+                        margin: 0 0 0 0;
+                    }
+                }
+
+            }
+        }
+    }
+}

@@ -1,0 +1,76 @@
+#section1{
+    width: 100%;
+    .container{
+        max-width: 640px;
+        width: 100%;
+        margin: 0 auto;
+        height: 512px;
+        position: relative;
+        .slide-view{
+            z-index: 1;
+            position: relative;
+            width:640px;
+            overflow: hidden;
+            .slide-wrap{
+                width: 640px * 12;
+                display: flex;
+                position: relative;
+                margin-left:-640px;
+                .slide{
+                    width: 640px;
+                    img{
+                        width: 640px;
+                    }
+                }
+            }
+        }
+        .next-arrow-btn {    
+            color:#fff;        
+            z-index: 2;
+            position: absolute;
+            width:32px;
+            height:32px;
+            top: 50%;
+            right: 0;
+            margin-top:-16px;
+            background: url(../../../../public/img/main/section1/icon_circle_right.svg) no-repeat 50% 50%;
+            background-size: 52px 52px;
+            border-radius: 50%;
+            opacity: 1;
+        }
+        .prev-arrow-btn {
+            color:#fff;
+            z-index: 2;
+            position: absolute;
+            width:32px;
+            height:32px;
+            top: 50%;
+            background: url(../../../../public/img/main/section1/icon_circle_right.svg) no-repeat 50% 50%;
+            margin-top:-16px;
+            transform: rotate(180deg);
+            border-radius: 50%;
+            opacity: 1;
+        }
+        .page-num-box{
+            position: absolute;
+            z-index: 3;
+            background-color: #0006;
+            bottom: 10px;
+            right: 10px;
+            width: 32px;
+            padding: 3px 6px;
+            border-radius: 16px;
+            display: flex;
+            em{
+                font-size: 11px;
+                color: #fff;
+                letter-spacing: -0.21px
+            }
+            i{
+                font-size: 11px;
+                color: #fff;
+                letter-spacing: -0.21px;
+            }
+        }
+    }
+}

@@ -1,0 +1,284 @@
+#ProductView{
+    width: 100%;
+    .container{
+        width: 100%;
+        border-top: 1px solid #ddd;
+        .content{
+            max-width: 1280px;
+            width: 100%;
+            padding: 15px 0 0 0;
+            margin: 0 auto;
+            display: flex;
+            .left{
+                width: 920px;
+                padding: 30px 29px 50px 0;
+                display: flex;
+                flex-flow: row wrap;
+                .left-left{
+                    img{
+                        width: 430px;
+                        height: 430px;
+                    }
+                }
+                .left-right{
+                    width: 430px;
+                    margin: 0 0 0 30px;
+                    .review{
+                        width: 100%;
+                        padding: 0 0 7px 0;
+                        img{
+                            width: 30px;
+                            height: 25px;
+                        }
+                        span{
+                            margin: 0 0 0 8px;
+                            color:#4684e9;
+                            font-weight: 400;
+                            font-size: 16px;
+                            cursor: pointer;
+                            text-decoration: underline solid #4684e9;
+                        }
+                    }
+                    .product-name{
+                        display: block;
+                        width: 100%;
+                        color: #111;
+                        font-size: 26px;
+                        line-height: 35px;
+                    }
+                    .product-cost{
+                        display: block;
+                        width: 100%;
+                        margin: 12px 0 0 0;
+                        padding: 0 70px 10px 0;
+                        font-size: 32px;
+                        line-height: 38px;
+                        font-weight: 700;
+                        color: #000;
+                    }
+                    .point{
+                        width: 100%;
+                        display: flex;
+                        flex-flow: row wrap;
+                        margin: 10px 0;
+                        li{
+                            display: flex;
+                            align-items: center;
+                            width: 100%;
+                            padding: 20px 16px;
+                            border: 1px solid #ddd;
+                            font-size: 15px;
+                            font-weight: 700;
+                            color: #333;
+                            position: relative;
+                            &:last-child{
+                                border-top: 0;
+                                flex-flow: row wrap;
+                                strong{
+                                    width: 100%;
+                                    padding: 7px 0 0 10px;
+                                    font-size: 12px;
+                                    color: #8c8c8c;
+                                    display: block;
+                                }
+                            }
+                            p{
+                                margin: 0 5px;
+                                color: #4684e9;
+                            }
+                            img{
+                                position: absolute;
+                                right: 10px;
+                                width: 14px;
+                                height: 10px;
+                                &.on{
+                                    transform: rotate(180deg) translateY(10px);
+                                }
+                            }
+                        }
+                    }
+                    .baesong{
+                        width: 100%;
+                        padding: 25px 0 0 30px;
+                        position: relative;
+                        .baesong-text{
+                            font-size: 15px;
+                            color: #333;
+                            line-height: 20px;
+                            strong{}
+                        }  
+                        img{
+                            position: absolute;
+                            left: 0;
+                            top: 27px;
+                            width: 20px;
+                            height: 18px;
+                        }      
+                    }
+                }
+                .btn-box{
+                    width: 100%;
+                    margin: 35px 0 0 0;
+                    text-align: center;
+                    border: 1px solid #ddd;
+                    button{
+                        width: calc(100%/3);
+                        height: 49px;
+                        border: 0;
+                        color: #fff;
+                        font: 16px;
+                        font-weight: 600;
+                        background-color: #000;
+                        &:nth-child(2){
+                            color: #333;
+                            background-color: #fff;
+                        }
+                        &:nth-child(3){
+                            color: #333;
+                            background-color: #fff;
+                        }
+                    }
+                }
+            }
+            .right{
+                width: 360px;
+                padding: 30px 0 30px 30px;
+                .gaesu{
+                    width: 100%;
+                    strong{
+                        display: block;
+                        width: 100%;
+                        color: #000;
+                        padding: 0 0 20px 0;
+                    }
+                    .cnt-box{
+                        width: 100%;
+                        padding: 0 40px;
+                        height: 36px;
+                        border: 1px solid #ddd;
+                        position: relative;
+                        span{
+                            width: 100%;
+                            height: 100%;
+                            font-size: 14px;
+                            font-weight: 500;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                        .minus{
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 37px;
+                            height: 36px;
+                            border: 0;
+                            background: url("../../../public/img/product/minus_off.png") no-repeat 50% 50%;
+                            &.on{
+                                background: url("../../../public/img/product/minus_on.png") no-repeat 50% 50%;
+                            }
+
+                        }
+                        .plus{
+                            position: absolute;
+                            top: 0;
+                            right: 0;
+                            width: 37px;
+                            height: 36px;
+                            border: 0;
+                            background: url("../../../public/img/product/plus_on.png") no-repeat 50% 50%;
+                        }
+                    }
+                }
+                .baesong-info{
+                    width: 100%;
+                    padding: 20px 0 0 0;
+                    display: flex;
+                    flex-flow: row wrap;
+                    li{
+                        width: 100%;
+                        height: 32px;
+                        display: flex;
+                        align-items: center;
+                        .baesong-left{
+                            width: 65px;
+                            font-size: 14px;
+                            font-weight: 600;
+                            color: #000;
+                        }
+                        .baesong-right{
+                            width: 265px;
+                            span{
+                                display: block;
+                                color: #666;
+                                width: 100%;
+                                padding: 5px 6px 9px 6px;
+                                border: 1px solid #e6e6e6;
+                                background: #fafafa;
+                            }
+                        }
+                    }
+                }
+                .text-footer{
+                    width: 100%;
+                    padding: 10px 0 20px 65px;
+                    border-bottom: 1px solid #ddd;
+                    color: #999;
+                    font-size: 12px;
+                }
+                .result-box{
+                    width: 100%;
+                    padding: 22px 0 20px 0;
+                    display: flex;
+                    justify-content: space-between;
+                    font-size: 20px;
+                    color: #000;
+                    .left-res{
+
+                    }
+                    .right-res{
+                        strong{
+                            vertical-align: top;
+                            font-size: 20px;
+                            font-weight: 700;
+                            color: #ff5959;
+                        }
+                    }
+                }
+                .cart-btn-box{
+                    width: 100%;
+                    button{
+                        margin: 0 5px;
+                        cursor: pointer;
+                        &.cart1{
+                            width: 50px;
+                            height: 60px;
+                            background: url("../../../public/img/product/icon_heart.png") no-repeat center center;
+                            background-size: 29px 22px;
+                            border: 1px solid #ddd;
+                            background-blend-mode:multiply
+                        }
+                        &.cart2{
+                            width: 50px;
+                            height: 60px;
+                            background: url("../../../public/img/product/icon_cart.png") no-repeat center 40% #fff;
+                            background-size: 30px 30px;
+                            border: 1px solid #ddd;
+                            background-blend-mode:multiply
+                        }
+                        &.cart3{
+                            background: #ffeb00;
+                            border: 1px solid #ffeb00;
+                            margin: 0;
+                            width: 202px;
+                            height: 60px;
+                            color: #000;
+                            font-weight: 500;
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

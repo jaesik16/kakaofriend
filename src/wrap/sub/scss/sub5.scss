@@ -1,0 +1,455 @@
+#sub5SignUp{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 7;
+    padding: 150px 0 0 0;
+    background: #fff;
+    .container{
+        width: 100%;
+        max-width: 1280px;
+        margin: 0 auto;
+        .title{
+            width: 100%;
+            text-align: center;
+            img{
+                width: 88px;
+                height: 34px;
+            }
+        }
+        .content{
+            width: 100%;
+            max-width: 580px;
+            padding: 0 69px;
+            margin: 50px auto 0 auto;
+            border: 1px solid #ddd;
+            .signUpContent{
+                width: 100%;
+                padding: 82px 0 77px 0;
+
+                .content-title{
+                    width: 100%;
+                    text-align: center;
+                    h2{
+                        font-size: 28px;
+                        color: #191919;
+                    }
+                }
+                .row1{
+                    width: 100%;
+                    padding: 19px 0 65px 0;
+                    color: #bebebe;
+                    font-size: 18px;
+                    text-align: center;
+                }
+                .row2{
+                    width: 100%;
+                    padding: 15px 0 0 0;
+                    color: #bebebe;
+                    font-size: 15px;
+                    text-align: center;
+                }
+                .btn-box{
+                    width: 100%;
+                    padding: 14px 0 0 0;
+                    >button{
+                        width: 440px;
+                        height: 50px;
+                        background: #fee500;
+                        color: #191919;
+                        border: 1px solid #fee500;
+                        border-radius: 4px;
+                        font-size: 16px;
+                        font-weight: 400;
+                        &:last-child{
+                            margin: 10px 0 0 0;
+                            background: #f0f0f0;
+                            color: #191919;
+                            border: 1px solid #f0f0f0;
+                        }
+                    }
+                }
+
+
+                
+            }
+            .signUpContent2{
+                width: 100%;
+                padding: 55px 0 50px 0;
+                .content-title{
+                    width: 100%;
+                    text-align: left;
+                    h2{
+                        font-size: 24px;
+                        font-weight: 400;
+                        color: #191919;
+                    }
+                }
+                form{
+                    width: 100%;
+                    ul{
+                        width: 100%;
+                        padding: 30px 0 0 0;
+                        li{
+                            width: 100%;
+                            padding: 10px 0;
+                            &:first-child{
+                                border: 0;
+                                border-bottom: 1px solid #ddd;
+                            }
+                            &:nth-child(2){
+                                padding: 20px 0 10px 0;
+                            }
+                            label{
+                                input{
+                                    appearance: none;
+                                    width: 20px;
+                                    height: 20px;
+                                    border: 1.5px solid #666;
+                                    background: #fff;
+                                    border-radius: 50%;
+                                    &:checked{
+                                        background: url('../../../../public/img/sub/sub5/ico_chk.png') no-repeat;
+                                        background-size: 20px 20px;
+                                        border: 0;
+                                    }
+                                }
+                                span{
+                                    color: #191919;
+                                    margin: 0 0 0 5px;
+                                    font-size: 17px;
+                                }
+                            }
+                            p{
+                                color: #999;
+                                padding: 9px 0 25px 18px;
+                                font-size: 14px;
+                                &.p2{
+                                    font-size: 12px;
+                                    padding: 9px 0 0 18px;
+
+                                }
+                            }
+                        }
+                    }
+                }
+                >button{
+                    width: 440px;
+                    margin: 45px 0 0 0;
+                    height: 50px;
+                    background: rgb(250, 250, 250);
+                    border: 1px solid rgb(250, 250, 250);
+                    font-size: 12px;
+                    color: #33333399;
+                    font-weight: 600;
+                    &.on{
+                        background: #fee500;
+                        border: 1px solid #fee500;
+                        color: #333;
+                        cursor: pointer;
+                    }
+                }
+
+            }
+            .signUpContent3{
+                width: 100%;
+                padding: 55px 0 50px 0;
+                .content-title{
+                    width: 100%;
+                    text-align: left;
+                    h2{
+                        font-size: 24px;
+                        font-weight: 400;
+                        color: #191919;
+                    }
+                }
+                form{
+                    width: 100%;
+                    ul{
+                        width: 100%;
+                        padding: 30px 0 0 0;
+                        li{
+                            width: 100%;
+                            padding: 10px 0;
+                            border-bottom: 2px solid #eee;
+                            &:last-child{
+                                border-bottom: 2px solid #000;
+                            }
+                            select{
+                                width: 77px;
+                                height: 45px;
+                                font-size: 20px;
+                                border: 0;
+                                option{
+                                    font-size: 12px;
+                                }
+                                &:focus{
+                                    outline: 0px;
+                                }
+                            }
+                            input{
+                                width: 240px;
+                                padding: 0 20px;
+                                height: 45px;
+                                border: 0;
+                                font-size: 18px;
+                                &:focus{
+                                    outline: none;
+                                }
+                            }
+                            img{
+                                width: 20px;
+                                height: 20px;
+                                cursor: pointer;
+                            }
+                            >button{
+                                width: 79px;
+                                margin: 0 0 0 7px;
+                                height: 30px;
+                                padding: 0 10px;
+                                background: #fff;
+                                border: 1px solid #ddd;
+                                border-radius: 15px;
+                                color: #000;
+                            }
+                            .Guid{
+                                color: #e65f3e;
+                                width: 100%;
+                                font-size: 13px;
+                                padding: 10px 0;
+                                &.on{
+                                    display: none;
+                                }
+                            }
+                            .hpAuthen{
+                                width: 100%;
+                                height: 45px;
+                            }
+                        }
+                    }
+                }
+                >button{
+                    width: 440px;
+                    margin: 45px 0 0 0;
+                    height: 50px;
+                    background: rgb(250, 250, 250);
+                    border: 1px solid rgb(250, 250, 250);
+                    font-size: 12px;
+                    color: #33333399;
+                    font-weight: 600;
+                    &.on{
+                        background: #fee500;
+                        border: 1px solid #fee500;
+                        color: #333;
+                        cursor: pointer;
+                    }
+                }
+
+            }
+            .signUpContent4{
+                width: 100%;
+                padding: 55px 0 50px 0;
+                .content-title{
+                    width: 100%;
+                    text-align: left;
+                    h2{
+                        font-size: 24px;
+                        font-weight: 400;
+                        color: #191919;
+                    }
+                }
+                form{
+                    width: 100%;
+                    ul{
+                        width: 100%;
+                        padding: 60px 0 0 0;
+                        li{
+                            width: 100%;
+                            border-bottom: 2px solid #eee;
+                            input{
+                                width: 290px;
+                                height: 45px;
+                                border: 0;
+                                font-size: 18px;
+                                &:focus{
+                                    outline: none;
+                                }
+                            }
+                            img{
+                                margin: 5px 10px 0 10px;
+                                width: 20px;
+                                height: 20px;
+                                cursor: pointer;
+                            }
+                            span{
+                                padding: 0 5px 0 0;
+                                font-size: 16px;
+                                color: #8e8e8e;
+                            }
+                        }
+                        .Guid{
+                            color: #e65f3e;
+                            width: 100%;
+                            font-size: 13px;
+                            padding: 10px 0;
+                            &.on{
+                                display: none;
+                            }
+                        }
+                    }
+                }
+                p{
+                    padding: 20px 0 0 0;
+                    color: #999;
+                    font-size: 12px;
+                    line-height: 160%;
+
+                }
+                >button{
+                    width: 440px;
+                    margin: 45px 0 0 0;
+                    height: 50px;
+                    background: rgb(250, 250, 250);
+                    border: 1px solid rgb(250, 250, 250);
+                    font-size: 12px;
+                    color: #33333399;
+                    font-weight: 600;
+                    &.on{
+                        background: #fee500;
+                        border: 1px solid #fee500;
+                        color: #333;
+                        cursor: pointer;
+                    }
+                }
+
+            }
+            .signUpContent5{
+                width: 100%;
+                padding: 55px 0 50px 0;
+                .content-title{
+                    width: 100%;
+                    text-align: left;
+                    h2{
+                        font-size: 24px;
+                        font-weight: 400;
+                        color: #191919;
+                    }
+                }
+                form{
+                    width: 100%;
+                    strong{
+                        display: block;
+                        margin: 80px 0 0 0;
+                        width: 100%;
+                        color: #8e8e8e;
+                    }
+                    span{
+                        display: block;
+                        width: 100%;
+                        margin: 10px 0 0 0;
+                        font-size: 16px;
+                        color: #000;
+                        font-weight: 500;
+                    }
+                    ul{
+                        width: 100%;
+                        padding: 60px 0 0 0;
+                        li{
+                            width: 100%;
+                            border-bottom: 2px solid #eee;
+                            &:nth-child(2){
+                                padding: 30px 0 0 0;
+                            }
+                            &:nth-child(3){
+                                padding: 30px 0 0 0;
+                            }
+                            strong{
+                                margin: 0 0 10px 0;
+                            }
+                            input{
+                                width: 400px;
+                                height: 45px;
+                                border: 0;
+                                font-size: 18px;
+                                &:focus{
+                                    outline: none;
+                                }
+                            }
+                            img{
+                                margin: 5px 10px 0 10px;
+                                width: 20px;
+                                height: 20px;
+                                cursor: pointer;
+                            }
+                            span{
+                                padding: 0 5px 0 0;
+                                font-size: 16px;
+                                color: #8e8e8e;
+                            }
+                        }
+                        .Guid{
+                            color: #e65f3e;
+                            width: 100%;
+                            font-size: 13px;
+                            padding: 10px 0;
+                            &.on{
+                                display: none;
+                            }
+                        }
+                    }
+                }
+                p{
+                    padding: 20px 0 0 0;
+                    color: #999;
+                    font-size: 12px;
+                    line-height: 160%;
+
+                }
+                >button{
+                    width: 440px;
+                    margin: 45px 0 0 0;
+                    height: 50px;
+                    background: rgb(250, 250, 250);
+                    border: 1px solid rgb(250, 250, 250);
+                    font-size: 12px;
+                    color: #33333399;
+                    font-weight: 600;
+                    &.on{
+                        background: #fee500;
+                        border: 1px solid #fee500;
+                        color: #333;
+                        cursor: pointer;
+                    }
+                }
+
+            }
+        }
+        .footer{
+            width: 100%;
+            padding: 42px 0 0 0;
+            display: flex;
+            justify-content: center;
+            flex-flow: row wrap;
+            ul{
+                width: 400px;
+                display: flex;
+                li{
+                    padding: 0 5px;
+                    a{
+                        white-space: nowrap;
+                        font-size: 12px;
+                        color: #4c4c4c;
+                    }
+                }
+            }
+            p{
+                width: 100%;
+                text-align: center;
+                margin: 12px 0 0 0;
+                font-size: 11px;
+                color: #00000080;
+            }
+        }
+    }
+}

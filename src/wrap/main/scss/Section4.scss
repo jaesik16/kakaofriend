@@ -1,0 +1,40 @@
+#section4{
+    width: 100%;
+    margin-top: 50px;
+    .container{
+        max-width: 640px;
+        width: 100%;
+        margin: 0 auto;
+        background: #7cc67f;
+        .content{
+            max-width: 415px;
+            width: 100%;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            .text-box{
+                width: 160px;
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: center;
+                align-items: center;
+                color: #fff;
+                font-size: 15px;
+                font-family: 700;
+                span{
+                    em{}
+                }
+
+            }
+            .img-box{
+                width: 140px;
+                transform: translateY(-15px);
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+}
